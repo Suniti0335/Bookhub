@@ -1,0 +1,386 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Clean Code",
+      "authors": [
+        "Robert C. Martin"
+      ],
+      "description": "คู่มือการเขียนโค้ดให้อ่านง่าย ดูแลง่าย พร้อมหลักการตั้งชื่อ การแยกฟังก์ชัน และการ refactor จากตัวอย่างจริง",
+      "category": "Programming",
+      "price": 1290,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
+      "publisher": "Prentice Hall",
+      "publishedYear": 2008,
+      "pageCount": 464,
+      "isbn": "9780132350884",
+      "rating": 4.4,
+      "stock": 12
+    },
+    {
+      "id": "2",
+      "title": "The Pragmatic Programmer",
+      "authors": [
+        "David Thomas",
+        "Andrew Hunt"
+      ],
+      "description": "แนวคิดและนิสัยของนักพัฒนาซอฟต์แวร์มืออาชีพ ตั้งแต่การจัดการโค้ด การทำงานเป็นทีม ไปจนถึงการพัฒนาตัวเอง",
+      "category": "Programming",
+      "price": 1450,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg",
+      "publisher": "Addison-Wesley",
+      "publishedYear": 2019,
+      "pageCount": 352,
+      "isbn": "9780135957059",
+      "rating": 4.5,
+      "stock": 8
+    },
+    {
+      "id": "3",
+      "title": "Refactoring",
+      "authors": [
+        "Martin Fowler"
+      ],
+      "description": "รวบรวมเทคนิคการปรับปรุงโครงสร้างโค้ดโดยไม่เปลี่ยนพฤติกรรม พร้อมตัวอย่างภาษา JavaScript ในฉบับพิมพ์ครั้งที่ 2",
+      "category": "Programming",
+      "price": 1590,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780134757599-L.jpg",
+      "publisher": "Addison-Wesley",
+      "publishedYear": 2018,
+      "pageCount": 448,
+      "isbn": "9780134757599",
+      "rating": 4.4,
+      "stock": 5
+    },
+    {
+      "id": "4",
+      "title": "Design Patterns",
+      "authors": [
+        "Erich Gamma",
+        "Richard Helm",
+        "Ralph Johnson",
+        "John Vlissides"
+      ],
+      "description": "หนังสือคลาสสิกของ Gang of Four ที่อธิบาย design pattern 23 แบบสำหรับการออกแบบซอฟต์แวร์เชิงวัตถุ",
+      "category": "Programming",
+      "price": 1690,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780201633610-L.jpg",
+      "publisher": "Addison-Wesley",
+      "publishedYear": 1994,
+      "pageCount": 395,
+      "isbn": "9780201633610",
+      "rating": 4.2,
+      "stock": 3
+    },
+    {
+      "id": "5",
+      "title": "Eloquent JavaScript",
+      "authors": [
+        "Marijn Haverbeke"
+      ],
+      "description": "เรียนรู้ JavaScript ตั้งแต่พื้นฐานจนถึงการเขียนโปรแกรมบนเบราว์เซอร์และ Node.js พร้อมแบบฝึกหัดท้ายบท",
+      "category": "Programming",
+      "price": 990,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781593279509-L.jpg",
+      "publisher": "No Starch Press",
+      "publishedYear": 2018,
+      "pageCount": 472,
+      "isbn": "9781593279509",
+      "rating": 4.1,
+      "stock": 15
+    },
+    {
+      "id": "6",
+      "title": "Sapiens",
+      "authors": [
+        "Yuval Noah Harari"
+      ],
+      "description": "ประวัติศาสตร์ย่อของมนุษยชาติ ตั้งแต่การปฏิวัติทางความคิดจนถึงยุควิทยาศาสตร์และเทคโนโลยี",
+      "category": "History",
+      "price": 650,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
+      "publisher": "Harper",
+      "publishedYear": 2015,
+      "pageCount": 443,
+      "isbn": "9780062316097",
+      "rating": 4.4,
+      "stock": 20
+    },
+    {
+      "id": "7",
+      "title": "Atomic Habits",
+      "authors": [
+        "James Clear"
+      ],
+      "description": "วิธีสร้างนิสัยที่ดีและเลิกนิสัยที่ไม่ดีด้วยการเปลี่ยนแปลงเล็ก ๆ ที่สะสมจนเกิดผลลัพธ์ยิ่งใหญ่",
+      "category": "Self-help",
+      "price": 590,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
+      "publisher": "Avery",
+      "publishedYear": 2018,
+      "pageCount": 320,
+      "isbn": "9780735211292",
+      "rating": 4.4,
+      "stock": 25
+    },
+    {
+      "id": "8",
+      "title": "Thinking, Fast and Slow",
+      "authors": [
+        "Daniel Kahneman"
+      ],
+      "description": "อธิบายระบบความคิดสองแบบของมนุษย์ คือแบบเร็วตามสัญชาตญาณและแบบช้าที่ใช้เหตุผล และอคติที่เกิดขึ้นในการตัดสินใจ",
+      "category": "Psychology",
+      "price": 720,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780374275631-L.jpg",
+      "publisher": "Farrar, Straus and Giroux",
+      "publishedYear": 2011,
+      "pageCount": 499,
+      "isbn": "9780374275631",
+      "rating": 4.2,
+      "stock": 0
+    },
+    {
+      "id": "9",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "authors": [
+        "J.K. Rowling"
+      ],
+      "description": "การผจญภัยครั้งแรกของแฮร์รี่ พอตเตอร์ เด็กชายที่ค้นพบว่าตัวเองเป็นพ่อมดและได้เข้าเรียนที่โรงเรียนฮอกวอตส์",
+      "category": "Fiction",
+      "price": 450,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780590353427-L.jpg",
+      "publisher": "Scholastic",
+      "publishedYear": 1998,
+      "pageCount": 309,
+      "isbn": "9780590353427",
+      "rating": 4.5,
+      "stock": 30
+    },
+    {
+      "id": "10",
+      "title": "The Little Prince",
+      "authors": [
+        "Antoine de Saint-Exupéry"
+      ],
+      "description": "เรื่องราวของเจ้าชายน้อยจากดาวเคราะห์ดวงเล็ก ที่สะท้อนมุมมองต่อมิตรภาพ ความรัก และโลกของผู้ใหญ่",
+      "category": "Fiction",
+      "price": 290,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780156012195-L.jpg",
+      "publisher": "Harcourt",
+      "publishedYear": 2000,
+      "pageCount": 96,
+      "isbn": "9780156012195",
+      "rating": 4.3,
+      "stock": 9
+    },
+    {
+      "id": "11",
+      "title": "Deep Work",
+      "authors": [
+        "Cal Newport"
+      ],
+      "description": "แนวทางฝึกสมาธิและจัดสภาพแวดล้อมเพื่อทำงานที่ต้องใช้ความคิดอย่างลึกซึ้ง ท่ามกลางสิ่งรบกวนในยุคดิจิทัล",
+      "category": "Productivity",
+      "price": 690,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781455586691-L.jpg",
+      "publisher": "Grand Central Publishing",
+      "publishedYear": 2016,
+      "pageCount": 304,
+      "isbn": "9781455586691",
+      "rating": 4.4,
+      "stock": 14
+    },
+    {
+      "id": "12",
+      "title": "The Design of Everyday Things",
+      "authors": [
+        "Don Norman"
+      ],
+      "description": "อธิบายหลักการออกแบบสิ่งของและระบบให้เข้าใจง่าย ใช้งานได้ตรงตามความคาดหวัง และช่วยป้องกันความผิดพลาด",
+      "category": "Design",
+      "price": 850,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
+      "publisher": "Basic Books",
+      "publishedYear": 2013,
+      "pageCount": 368,
+      "isbn": "9780465050659",
+      "rating": 4.3,
+      "stock": 9
+    },
+    {
+      "id": "13",
+      "title": "Introduction to Algorithms",
+      "authors": [
+        "Thomas H. Cormen",
+        "Charles E. Leiserson",
+        "Ronald L. Rivest",
+        "Clifford Stein"
+      ],
+      "description": "ตำราอัลกอริทึมที่ครอบคลุมการวิเคราะห์ประสิทธิภาพ โครงสร้างข้อมูล และเทคนิคแก้ปัญหาทางคอมพิวเตอร์",
+      "category": "Programming",
+      "price": 2450,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
+      "publisher": "MIT Press",
+      "publishedYear": 2022,
+      "pageCount": 1312,
+      "isbn": "9780262046305",
+      "rating": 4.2,
+      "stock": 4
+    },
+    {
+      "id": "14",
+      "title": "The Mythical Man-Month",
+      "authors": [
+        "Frederick P. Brooks Jr."
+      ],
+      "description": "บทเรียนคลาสสิกเกี่ยวกับการบริหารโครงการซอฟต์แวร์ การทำงานเป็นทีม และเหตุผลที่การเพิ่มคนอาจไม่ช่วยให้งานเสร็จเร็วขึ้น",
+      "category": "Software Engineering",
+      "price": 790,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780201835953-L.jpg",
+      "publisher": "Addison-Wesley",
+      "publishedYear": 1995,
+      "pageCount": 336,
+      "isbn": "9780201835953",
+      "rating": 4.1,
+      "stock": 7
+    },
+    {
+      "id": "15",
+      "title": "You Don't Know JS Yet: Get Started",
+      "authors": [
+        "Kyle Simpson"
+      ],
+      "description": "ปูพื้นฐานการคิดและทำงานของ JavaScript เพื่อให้เข้าใจภาษาอย่างเป็นระบบก่อนต่อยอดไปยังหัวข้อขั้นสูง",
+      "category": "Programming",
+      "price": 420,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781098110338-L.jpg",
+      "publisher": "O'Reilly Media",
+      "publishedYear": 2020,
+      "pageCount": 143,
+      "isbn": "9781098110338",
+      "rating": 4.2,
+      "stock": 18
+    },
+    {
+      "id": "16",
+      "title": "Head First Design Patterns",
+      "authors": [
+        "Eric Freeman",
+        "Elisabeth Robson"
+      ],
+      "description": "เรียนรู้รูปแบบการออกแบบซอฟต์แวร์ผ่านตัวอย่างและภาพประกอบ เพื่อเลือกใช้แนวทางที่เหมาะกับปัญหาในงานจริง",
+      "category": "Programming",
+      "price": 1390,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781492078005-L.jpg",
+      "publisher": "O'Reilly Media",
+      "publishedYear": 2020,
+      "pageCount": 694,
+      "isbn": "9781492078005",
+      "rating": 4.3,
+      "stock": 6
+    },
+    {
+      "id": "17",
+      "title": "The Lean Startup",
+      "authors": [
+        "Eric Ries"
+      ],
+      "description": "นำเสนอวิธีทดลองแนวคิดธุรกิจอย่างรวดเร็ว วัดผลจากผู้ใช้ และปรับผลิตภัณฑ์จากข้อมูลจริง",
+      "category": "Business",
+      "price": 620,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg",
+      "publisher": "Crown Business",
+      "publishedYear": 2011,
+      "pageCount": 336,
+      "isbn": "9780307887894",
+      "rating": 4.1,
+      "stock": 11
+    },
+    {
+      "id": "18",
+      "title": "Thinking in Systems",
+      "authors": [
+        "Donella H. Meadows"
+      ],
+      "description": "แนะนำการมองปัญหาเป็นระบบที่เชื่อมโยงกัน พร้อมแนวคิดเรื่องวงจรป้อนกลับ จุดคานงัด และการเปลี่ยนแปลง",
+      "category": "Science",
+      "price": 720,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781603580557-L.jpg",
+      "publisher": "Chelsea Green Publishing",
+      "publishedYear": 2008,
+      "pageCount": 240,
+      "isbn": "9781603580557",
+      "rating": 4.4,
+      "stock": 8
+    },
+    {
+      "id": "19",
+      "title": "The Art of Computer Programming, Volume 1",
+      "authors": [
+        "Donald E. Knuth"
+      ],
+      "description": "ตำราเชิงลึกเกี่ยวกับอัลกอริทึมพื้นฐาน การวิเคราะห์เชิงคณิตศาสตร์ และการแทนข้อมูลในคอมพิวเตอร์",
+      "category": "Programming",
+      "price": 2890,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780201896831-L.jpg",
+      "publisher": "Addison-Wesley",
+      "publishedYear": 1997,
+      "pageCount": 672,
+      "isbn": "9780201896831",
+      "rating": 4.5,
+      "stock": 3
+    },
+    {
+      "id": "20",
+      "title": "Database System Concepts",
+      "authors": [
+        "Abraham Silberschatz",
+        "Henry F. Korth",
+        "S. Sudarshan"
+      ],
+      "description": "อธิบายแนวคิดฐานข้อมูลตั้งแต่ relational model และ SQL ไปจนถึงการจัดการธุรกรรมและระบบฐานข้อมูลสมัยใหม่",
+      "category": "Database",
+      "price": 2190,
+      "coverUrl": "https://covers.openlibrary.org/b/id/54871-L.jpg",
+      "publisher": "McGraw Hill",
+      "publishedYear": 2019,
+      "pageCount": 1376,
+      "isbn": "9781260084504",
+      "rating": 4.2,
+      "stock": 5
+    }
+  ],
+  "orders": [
+    {
+      "createdAt": "2026-10-18T10:47:55.627Z",
+      "items": [
+        {
+          "bookId": "10",
+          "title": "The Little Prince",
+          "coverUrl": "https://covers.openlibrary.org/b/isbn/9780156012195-L.jpg",
+          "price": 290,
+          "quantity": 1
+        }
+      ],
+      "address": {
+        "label": "บ้าน",
+        "recipientName": "หกดหกดหกด",
+        "phone": "0931340952",
+        "line1": "กดเกดเกดเ",
+        "subdistrict": "กดเกเกดเด",
+        "district": "กดเกดเกดเกด",
+        "province": "ชลบุรี",
+        "postalCode": "44444"
+      },
+      "shippingMethod": "express",
+      "paymentMethod": "cod",
+      "subtotal": 290,
+      "shippingFee": 120,
+      "total": 410,
+      "status": "pending_payment",
+      "id": "9hC9ZsO0ZBk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

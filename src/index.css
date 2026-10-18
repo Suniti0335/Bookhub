@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: bookhub --default;
+}
+
+@plugin "daisyui/theme" {
+  name: "bookhub";
+  default: true;
+  color-scheme: dark;
+
+  --color-base-100: oklch(18% 0.01 260);
+  --color-base-200: oklch(14% 0.01 260);
+  --color-base-300: oklch(11% 0.01 260);
+  --color-base-content: oklch(94% 0.01 80);
+
+  --color-primary: oklch(72% 0.19 50);
+  --color-primary-content: oklch(15% 0.02 50);
+  --color-secondary: oklch(62% 0.16 45);
+  --color-secondary-content: oklch(98% 0.01 80);
+  --color-accent: oklch(78% 0.17 65);
+  --color-accent-content: oklch(18% 0.03 55);
+  --color-neutral: oklch(24% 0.01 260);
+  --color-neutral-content: oklch(90% 0.01 80);
+
+  --color-info: oklch(72% 0.13 235);
+  --color-info-content: oklch(18% 0.03 235);
+  --color-success: oklch(72% 0.14 160);
+  --color-success-content: oklch(18% 0.03 160);
+  --color-warning: oklch(80% 0.16 80);
+  --color-warning-content: oklch(20% 0.04 70);
+  --color-error: oklch(68% 0.2 25);
+  --color-error-content: oklch(98% 0.01 25);
+}
